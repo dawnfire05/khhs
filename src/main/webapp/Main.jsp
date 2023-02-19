@@ -35,10 +35,10 @@
     
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link " aria-current="page" href="food.jsp">급식</a>
+          <a class="nav-link " aria-current="page" href="foodPage/food.jsp">급식</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="blog.jsp">게시판</a>
+          <a class="nav-link " aria-current="page" href="contentPage/contentList.jsp">게시판</a>
         </li>
         </ul>
         
@@ -50,7 +50,7 @@
           <a class="nav-link "  href="#">회원가입</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link "  href="userlogin">로그인</a>
+          <a class="nav-link "  href="userPage/userLogin.jsp">로그인</a>
         </li>
         </ul>
         <%

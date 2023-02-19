@@ -20,9 +20,6 @@ import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-/**
- * Servlet implementation class foodCtrl
- */
 @WebServlet("/foodCtrl")
 public class foodCtrl extends HttpServlet {
 	private static final long serialVersionUID = 1L;
@@ -68,7 +65,7 @@ public class foodCtrl extends HttpServlet {
             
             for (int i = 0; i<arrData.size(); i++) {
             	JSONObject temp = (JSONObject)arrData.get(i);
-            	if((boolean)temp.get("MMEAL_SC_NM").equals("Áß½Ä")) {
+            	if((boolean)temp.get("MMEAL_SC_NM").equals("ï¿½ß½ï¿½")) {
 
                 	food[i] = (String)temp.get("DDISH_NM");
                 	date[i] = (String)temp.get("MLSV_YMD");
@@ -86,7 +83,7 @@ public class foodCtrl extends HttpServlet {
             
             if (action==null) {
                 if(todayFood == null) {
-                	request.setAttribute("food", "¿À´Ã ±Þ½ÄÀÌ ¾ø½À´Ï´Ù.");
+                	request.setAttribute("food", "ï¿½ï¿½ï¿½ï¿½ ï¿½Þ½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
                 } else {
             		request.setAttribute("food", todayFood);
                 }

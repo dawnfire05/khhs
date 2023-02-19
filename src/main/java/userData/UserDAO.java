@@ -40,19 +40,6 @@ public class UserDAO {
 	    	System.out.println("에러: " + e);
 	    }
 	    
-	    /*
-	    finally{
-	        try{
-	            if( conn != null && !conn.isClosed()){
-	                conn.close();
-	            }
-	        }
-	        catch( SQLException e){
-	            e.printStackTrace();
-	        }
-	    }
-	    */
-	    
 	}
 	
 

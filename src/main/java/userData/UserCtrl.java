@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 
  
 
-@WebServlet("/UserCtrl")
+@WebServlet("/userCtrl")
 public class UserCtrl extends HttpServlet {
     private static final long serialVersionUID = 1L;
 

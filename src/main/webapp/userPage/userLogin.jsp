@@ -19,7 +19,7 @@
 <div class="container-fluid">
 <div class="loginbox">
   <h2>경희고등학교</h2>
-  <form method="post" action="/UserCtrl?action=login">
+  <form method="post" action="/userCtrl?action=login">
     <!--작성하지 않아도 문제는 없음-->
     <fieldset>
       <legend style = "margin-top: 0px;">로그인</legend>
